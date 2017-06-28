@@ -148,8 +148,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>A81FA55E-6550-4343-B955-0DA126AADBFB</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -177,8 +175,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>21B61E6A-E0CD-4C47-929C-968E174CA9A1</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -194,8 +190,6 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>FF036B8E-4B12-44D9-9D01-93A2A5A86EB7</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -204,10 +198,6 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>1</integer>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -217,8 +207,6 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>7EC2F110-E059-47ED-8149-0C84D763F9BE</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -234,8 +222,6 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>86B41090-C524-499B-8881-98E51D84C77B</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -249,8 +235,6 @@
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>5212DE91-4524-40C9-B05A-EDDF32B6CA10</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -274,8 +258,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>B5E3D91D-B6DD-4D79-B236-D7B5FFDCED48</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -287,8 +269,6 @@
 			<string>alfred.workflow.trigger.fallback</string>
 			<key>uid</key>
 			<string>B10F7555-8EFD-4A05-96B7-983DE39659F3</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -304,8 +284,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>5F56D77A-AACD-4807-9243-8C363B0F7954</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -329,8 +307,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>08AFB74A-D0A7-41C4-BD59-F0FE39277F53</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -358,8 +334,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>4494DEEB-C711-4F96-9765-B14F9B78E482</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -375,8 +349,6 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>C93A4176-60A5-4DA6-8946-C0BAAF8DD1F5</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -392,8 +364,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>3503EAF4-FAFC-43B0-BE5A-90585FF0052C</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
