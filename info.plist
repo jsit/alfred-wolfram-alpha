@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>tylereich.wolframalpha</string>
+	<key>category</key>
+	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>21B61E6A-E0CD-4C47-929C-968E174CA9A1</key>
@@ -437,6 +439,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>http://www.packal.org/workflow/wolframalpha</string>
 </dict>
 </plist>
