@@ -1,7 +1,6 @@
 <?php
 require_once('workflows.php');
-$w = new Workflows();
-//$w = new Workflows();
+$w = new Workflows('tylereich.wolframalpha');
 $q = $argv[1];
 $id = urlencode($q);
 $xml_string = $w->request("http://api.wolframalpha.com/v2/validatequery?input=hello+world&appid=$id");

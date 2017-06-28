@@ -1,8 +1,6 @@
 <?php
 require_once('workflows.php');
-$w = new Workflows(/*'tylereich.wolframalpha'*/);
-//$w = new Workflows();
-//$settings = 'settings.plist';
+$w = new Workflows('tylereich.wolframalpha');
 $id = $w->get('appid','settings.plist');
 if(!$id){
 	$w->result(
@@ -17,16 +15,10 @@ if(!$id){
 	return;
 }
 $q = $argv[1];
-//$q = 'hello world';
 $qurl = urlencode($q);
-/*if(strlen($q)<3){
-	return;
-}*/
 $xml_string = $w->request("http://api.wolframalpha.com/v2/query?appid=$id&input=$qurl&format=plaintext");
-//$json_string = $w->request("http://www.wolframalpha.com/input/autocomplete.jsp?qr=0&i=$qurl");
 $xml_string = $xml_string;
 $xml = simplexml_load_string($xml_string);
-//$json = json_decode($json_string);
 if($xml['error']=='true'){
 	$w->result(
 		'wolfram-error',
@@ -45,18 +37,7 @@ if($xml['error']=='true'){
 		'icon.png',
 		'yes'
 	);
-}/*elseif($json->results){
-	foreach($json->results as $result){
-		$w->result(
-			"tylereich.wolframalpha $q",
-			urlencode($result->input),
-			$result->input,
-			$result->description,
-			'icon.png',
-			'yes'
-		);
-	}
-}*/else{
+}else{
 	$w->result(
 		'wolfram-noresult',
 		$q,
